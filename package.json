@@ -1,0 +1,38 @@
+{
+  "name": "uitests",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "node node_modules/protractor/bin/webdriver-manager update && ng e2e"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.8.5",
+    "@angular/cli": "^6.2.5",
+    "@angular/compiler-cli": "^6.1.10",
+    "@angular/language-service": "^6.1.10",
+    "@types/chai": "^4.1.6",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/cucumber": "^4.0.4",
+    "@types/jasmine": "~2.8.8",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "codelyzer": "~4.3.0",
+    "cucumber": "^5.0.2",
+    "cucumber-junit": "^1.7.1",
+    "jasmine-core": "~2.99.1",
+    "jasmine-spec-reporter": "~4.2.1",
+    "protractor": "^5.4.1",
+    "protractor-cucumber-framework": "^6.1.1",
+    "puppeteer": "^1.9.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~2.9.2"
+  }
+}
